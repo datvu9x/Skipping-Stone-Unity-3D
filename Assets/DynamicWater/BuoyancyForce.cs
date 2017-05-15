@@ -474,7 +474,7 @@ namespace LostPolygon.DynamicWaterSystem {
                                 }
                             }
 
-                            _buoyancyVoxels[i].HadPassedWater = false;
+                            _buoyancyVoxels[i].HadPassedWater = true;
                         } else {
                             _buoyancyVoxels[i].HadPassedWater = false;
                         }

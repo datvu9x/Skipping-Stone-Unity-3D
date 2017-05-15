@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -125,28 +125,123 @@
      <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
      <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
      <Compile Include="Assets\Scripts\GUI\ButtonScript.cs" />
+     <Compile Include="Assets\Scripts\GUI\DisplayMetricsAndroid.cs" />
      <Compile Include="Assets\Scripts\GUI\DragHandeler.cs" />
      <Compile Include="Assets\Scripts\GUI\Inventory.cs" />
-     <Compile Include="Assets\Scripts\GUI\QuitApplication.cs" />
+     <Compile Include="Assets\Scripts\GUI\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\GUI\Slot.cs" />
-     <Compile Include="Assets\Scripts\Player\JasperControls.cs" />
+     <Compile Include="Assets\Scripts\HighScore.cs" />
+     <Compile Include="Assets\Scripts\HighScoreScript.cs" />
+     <Compile Include="Assets\Scripts\HighScoresManager.cs" />
+     <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\Login.cs" />
+     <Compile Include="Assets\Scripts\Objects\DuckMoving.cs" />
+     <Compile Include="Assets\Scripts\Objects\SizeOfPool.cs" />
+     <Compile Include="Assets\Scripts\Objects\StuffMoving.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerThrowStone.cs" />
+     <Compile Include="Assets\Scripts\Register.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ScorePlayer.cs" />
      <Compile Include="Assets\Scripts\Server\NetworkMenu.cs" />
-     <Compile Include="Assets\Scripts\Stone\StoneJumping.cs" />
      <Compile Include="Assets\Scripts\Stone\StoneMoving.cs" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <Compile Include="Assets\sqlitekit\DemoObject.cs" />
+     <Compile Include="Assets\sqlitekit\SQLiteDB.cs" />
+     <Compile Include="Assets\sqlitekit\SQLiteQuery.cs" />
+     <Compile Include="Assets\sqlitekit\src\BtreeInt_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\Btree_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\Delegates.cs" />
+     <Compile Include="Assets\sqlitekit\src\Hash_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\VdbeInt_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\Vdbe_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\_Custom.cs" />
+     <Compile Include="Assets\sqlitekit\src\alter_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\analyze_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\attach_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\auth_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\backup_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\bitvec_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\btmutex_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\btree_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\build_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\callback_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\complete_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\crypto.cs" />
+     <Compile Include="Assets\sqlitekit\src\ctime_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\date_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\delete_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\expr_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\fault_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\fkey_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\func_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\global_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\hash_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\hwtime_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\insert_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\journal_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\keywordhash_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\legacy_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\loadext_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\main_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\malloc_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\mem_Pool.cs" />
+     <Compile Include="Assets\sqlitekit\src\memjournal_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\mutex_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\mutex_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\mutex_noop_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\mutex_w32.cs" />
+     <Compile Include="Assets\sqlitekit\src\notify_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\opcodes_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\opcodes_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\os_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\os_common_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\os_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\os_win_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\pager_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\pager_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\parse_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\parse_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\pcache1_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\pcache_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\pcache_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\pragma_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\prepare_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\printf_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\random_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\resolve_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\rowset_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\select_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\sqlite3_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\sqliteInt_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\sqliteLimit_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\status_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\stream_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\stream_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\table_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\tokenize_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\trigger_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\update_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\utf_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\util_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vacuum_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vdbe_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vdbeapi_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vdbeaux_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vdbeblob_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vdbemem_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vdbetrace_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\vtab_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\wal_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\wal_h.cs" />
+     <Compile Include="Assets\sqlitekit\src\walker_c.cs" />
+     <Compile Include="Assets\sqlitekit\src\where_c.cs" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterBumped_Fresnel.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleObstructionAlpha.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleAdditive.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimpleTwoSided.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\DepthMask.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\Mobile-Particle-Add (Cull On).shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimple.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimple.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Setup/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -167,7 +262,7 @@
  <HintPath>E:/Setup/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="DynamicWaterNativeWrapper">
- <HintPath>F:/Workspace/Unity/DSD15/dsd15-95072-20162ab/SkippingStone/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
+ <HintPath>F:/Workspace/Unity/SkippingStone/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>E:/Setup/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
@@ -178,10 +273,6 @@
  <Reference Include="UnityEditor.iOS.Extensions.Common">
  <HintPath>E:/Setup/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{64301101-F9E9-8F74-326C-BCD007FA5237}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterBumped_Fresnel.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleObstructionAlpha.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleAdditive.shader" />
@@ -55,10 +54,7 @@
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\DepthMask.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\Mobile-Particle-Add (Cull On).shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimple.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimple.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>E:/Setup/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>

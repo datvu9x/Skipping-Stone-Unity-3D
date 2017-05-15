@@ -1,26 +1,10 @@
 fileFormatVersion: 2
-guid: f50eb377eec70984187602b582ebb031
-timeCreated: 1489943169
+guid: 142411e35c3f9c94bb9fa55ac5a8f53a
+timeCreated: 1493480838
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences:
-  - objectServer: {instanceID: 0}
-  - objectClient: {instanceID: 0}
-  - objectWater: {instanceID: 0}
-  - groundClient: {instanceID: 0}
-  - groundRightServer: {instanceID: 0}
-  - groundLeftServer: {instanceID: 0}
-  - groundLeftClient: {instanceID: 0}
-  - groundRightClient: {instanceID: 0}
-  - character: {instanceID: 0}
-  - characterClient: {instanceID: 0}
-  - terrain: {instanceID: 0}
-  - camClient: {instanceID: 0}
-  - objGround: {instanceID: 0}
-  - objLake: {instanceID: 0}
-  - newSkin: {fileID: 11400000, guid: ddb29165d5c31c4448d65170509fea9e, type: 2}
-  - logoTexture: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
